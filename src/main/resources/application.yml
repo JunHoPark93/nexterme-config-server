@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@admin:JunHoPark93/nextersme-private-properties.git
+          skip-ssl-validation: true
+server:
+  port: 8888
